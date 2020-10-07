@@ -19,7 +19,7 @@ navigator.mediaDevices
     myPeer.on('call', (call) => {
       call.answer(stream);
 
-      const video = documetn.createElement('video');
+      const video = document.createElement('video');
       call.on('stream', (userVideoStream) => {
         addVideoStream(video, userVideoStream);
       });
