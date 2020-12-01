@@ -159,7 +159,7 @@ nav ul li a {
   width: 5px;
   height: 80px;
   border-radius: 10px;
-  background: #fff;
+  background: #eee;
   position: absolute;
   top: 0;
   transform: translateX(-50%);
