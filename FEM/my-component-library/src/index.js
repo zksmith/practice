@@ -5,6 +5,7 @@ import PrimaryButton, {
   SecondaryButton,
   TertiaryButton,
 } from './components/Buttons';
+import { SignUpModal } from './components/Modals';
 import { GlobalStyle, darkTheme, defaultTheme } from './utils';
 
 const App = () => {
@@ -36,12 +37,9 @@ const App = () => {
           justifyContent: 'space-around',
         }}
       >
-        <PrimaryButton>Hello World</PrimaryButton>
-        <SecondaryButton>Hello World</SecondaryButton>
-        <TertiaryButton>Hello World</TertiaryButton>
+        <SignUpModal />
+        <GlobalStyle />
       </div>
-
-      <GlobalStyle />
     </ThemeProvider>
   );
 };

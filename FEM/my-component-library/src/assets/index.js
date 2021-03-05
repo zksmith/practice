@@ -1,4 +1,4 @@
-import SIgnUp from './illustrations/signup.svg';
+import SignUp from './illustrations/signup.svg';
 
 export const illustrations = {
   SignUp,
